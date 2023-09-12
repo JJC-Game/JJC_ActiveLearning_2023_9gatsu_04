@@ -14,7 +14,7 @@ use App\Http\Controllers\AppUserController;
 |
 */
 
-Route::get('/app_user/{id}', [AppUserController::class, 'app_user'])->name('al.app_user');->name('al.app_user');
+Route::get('/app_user/{id}', [AppUserController::class, 'app_user'])->name('al.app_user');
 
 Route::get('/', function () {
     return view('welcome');
